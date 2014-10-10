@@ -3,16 +3,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Insert title here</title>
+<link href="${pageContext.request.contextPath}/resources/style.css" rel="stylesheet" type="text/css"/>
+<title>Zmiana ksi??ki</title>
 </head>
 <body>
 
-	<form:form modelAttribute="towar">
-		Nazwa: <form:input path="nazwa" />
+	<form:form modelAttribute="ksiazka">
+		Tytul: <form:input path="tytul" />
 		<br>
 		Opis: <form:input path="opis" />
 		<br>
-				Cena: <form:input path="cena" />
+				Nazwisko Autora: <form:input path="nazwiskoAutora" />
 		<br>
 				Ilosc: <form:input path="ilosc" />
 		<br>
